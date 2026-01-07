@@ -11,7 +11,7 @@ while True:
    print("4. Delete Contact")
    print("5. Exit")
 
-   choice = input("Select Option: ")
+   choice = input("Choose an Option: ")
 
    if choice == "1":
       app.add_contact(
@@ -19,13 +19,16 @@ while True:
          input("Phone: "),
          input("Email: ")
       )
+      print("Contact added successfully!")
    elif choice == "2":
+      print("---Contact List---")
       for c in app.view_contacts():
          print(c.to_string())
    
    elif choice == "3":
       name = input("Enter name: ")
       result = app.search_contact(name)
+      print("---Found---")
       print(result.to_string() if result else "Contact not found")
 
    elif choice == "4":
