@@ -1,8 +1,8 @@
 
 
-from contact_book import ContactBook
+from contact_book import contact_book
 
-app = ContactBook()
+app = contact_book()
 
 while True:
    print("\n1. Add Contact")
