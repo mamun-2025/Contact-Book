@@ -44,6 +44,7 @@ This project follows **industry-relevant coding practices**, making it suitable 
 
 ## 📁 Folder Structure (Industry-Style)
 
+```text
 contact_book/
 │
 ├── main.py # Application entry point
@@ -52,8 +53,7 @@ contact_book/
 ├── file_manager.py # File handling & persistence
 ├── contacts.txt # Data storage
 └── README.md # Project documentation
-
-
+```
 ---
 
 ## 🧠 Architecture Explanation
@@ -81,7 +81,7 @@ This separation improves **maintainability, readability, and scalability**.
 ```bash
 python main.py
 
-
+```
 ## 🎓 Learning Outcomes
 
 - How to structure Python projects professionally
@@ -99,5 +99,5 @@ python main.py
 ## 👤 Author
 
 **Mamun Bepari**  
-Aspiring Software Engineer  
-Python Backend Developer -->
+- Aspiring Software Engineer  
+- Python Backend Developer -->
